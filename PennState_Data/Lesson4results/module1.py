@@ -1,0 +1,3 @@
+
+import arcpy
+help(arcpy)

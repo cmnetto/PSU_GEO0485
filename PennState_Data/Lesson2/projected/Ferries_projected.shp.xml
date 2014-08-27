@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Cartography Section, Washington State Department of Transportation</origin>
+				<pubdate>20070801</pubdate>
+				<title>Ferry Routes of Washington State</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Olympia, Washington</pubplace>
+					<publish>Washington State Department of Transportation</publish>
+				</pubinfo>
+				<ftname Sync="TRUE">Ferries</ftname><onlink Sync="TRUE">\\ASROCK\C$\Data\Project2_Originals\Ferries</onlink></citeinfo>
+		</citation>
+		<descript>
+			<abstract>Routes of vessels providing scheduled, public car ferry service in the waters of Washington State are depicted as linear features.  Known private, provincial, tribal and passenger-only ferry services are also shown.  </abstract>
+			<purpose>This data set is used as a reference layer for geographic information systems at the Washington State Department of Transportation.  This layer is not intended for navigational purposes.  </purpose>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20070801</caldate>
+					<time>unknown</time>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-123.445160</westbc>
+				<eastbc Sync="TRUE">-118.138048</eastbc>
+				<northbc Sync="TRUE">49.026429</northbc>
+				<southbc Sync="TRUE">46.136829</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-123.445160</leftbc><rightbc Sync="TRUE">-118.138048</rightbc><bottombc Sync="TRUE">46.136829</bottombc><topbc Sync="TRUE">49.026429</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>ferry</themekey>
+				<themekey>state route</themekey>
+				<themekey>ferry route</themekey></theme>
+			<place>
+				<placekt>none</placekt>
+				<placekey>Pacific Northwest</placekey>
+				<placekey>United States</placekey>
+				<placekey>USA</placekey>
+				<placekey>WA</placekey>
+				<placekey>Washington</placekey>
+				<placekey>BC</placekey><placekey>British Columbia</placekey></place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>none</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntperp>
+					<cntper>Ron Cihon</cntper>
+					<cntorg>Geographic Services, Washington State Department of Transportation</cntorg>
+				</cntperp>
+				<cntpos>GIS/Cartography Supervisor</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 47384</address>
+					<city>Olympi</city>
+					<state>WA</state>
+					<postal>98504</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>360-709-5510</cntvoice>
+				<cntfax>360-709-5599</cntfax>
+				<cntemail>cihonr@wsdot.wa.gov</cntemail>
+				<hours>M - F 8 AM - 5 PM</hours><cntinst>Please call, email or write with questions.  </cntinst></cntinfo>
+		</ptcontac>
+		<datacred>Allen Blake, Mark Bozanich, Whitney Buschmann, Washington State Department of Transportation</datacred>
+		<native Sync="TRUE">Microsoft Windows Vista Version 6.0 (Build 6002) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+		<crossref>
+			<citeinfo>
+				<origin>GIS/Cartography Section, Washington State Department of Transportation</origin>
+				<pubdate>19990216</pubdate>
+				<title>Washington State Highways, 1998</title>
+				<geoform>linear reference system</geoform>
+				<pubinfo>
+					<pubplace>Olympia, Washington, USA</pubplace>
+					<publish>Washington State Department of Transportation</publish>
+				</pubinfo>
+			</citeinfo>
+		</crossref>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Attributes of ownership and State Route number are correct as of August 2007.</attraccr>
+		</attracc>
+		<complete>This data set represents every ferry route known to be operating in Washington State as of August, 2007.  This includes ferry routes operated by the State of Washington, Canadian provinces, private entities and tribabl entities.  </complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Positional accuracy has not been determined.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>Cartography Section, Washington State Department of Transportation</origin>
+						<title>WSDOT 7.5 Minute Quadrangle</title>
+						<geoform>map</geoform>
+						<serinfo>
+							<sername>WSDOT 7.5 Minute Quadrangles</sername>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Olympia, Washington</pubplace>
+							<publish>Washington State Department of Transportation</publish>
+						</pubinfo>
+						<othercit>The WSDOT 7.5 Minute Quadrangle Series is based on 7.5 minute U.S. Geological Survey quadrangles. Selected features were digitized by WSDOT Cartography Section staff, including revisions compiled by the Cartography Section.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>online</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<time>unknown</time>
+						</sngdate>
+					</timeinfo>
+				</srctime>
+				<srccitea>WSDOT 7.5 Min Quad</srccitea>
+				<srccontr>The graphics and attributes depicting Washington State ferry routes.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>
+WSDOT Quad series design files (DGN files) including ferry routes were combined into a single file.
+This was converted to an Arc/Info coverage using Arc command "IGDSARC." The data was transformed to geographic coordinates using Arc commands "PROJECTDEFINE" and "PROJECT." Attributes of Ownership and State Route Number (if applicable) were added to the arc attribute table in ArcView, and the result converted to a shapefile.
+</procdesc>
+				<srcused>WSDOT 7.5 Min Quad</srcused>
+				<procdate>19990401</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Allen Blake</cntper>
+							<cntorg>Transportation Data Office, Washington State Department of Transportation</cntorg>
+						</cntperp>
+						<cntpos>GIS/GPS  Analyst</cntpos>
+						<cntaddr>
+							<addrtype>physical address</addrtype>
+							<address>PO Box 47380</address>
+							<city>Olympia</city>
+							<state>WA</state>
+							<postal>98504-7380</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>360-570-2363</cntvoice>
+						<cntemail>blaket@wsdot.wa.gov</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\BlakeM\LOCALS~1\Temp\xml4DE.tmp</srcused><date Sync="TRUE">20030507</date><time Sync="TRUE">09423300</time></procstep><procstep><procdesc>The original Ferry Routes of Washington State dataset was updated based on information from Washington State Ferries and other sources.  </procdesc><procdate>20070801</procdate><srcused>Ferry Routes of Washington State GIS shapefile</srcused><proccont><cntinfo><cntperp><cntper>Whitney K. Buschmann</cntper><cntorg>Cartography and GIS Section, Geographic Services, The Washington State Department of Transportation</cntorg></cntperp><cntpos>GIS Specialist</cntpos><cntaddr><addrtype>mailing address</addrtype><address>PO Box 47384</address><city>Olympia</city><state>WA</state><postal>98501</postal><country>USA</country></cntaddr><cntvoice>360-709-5506</cntvoice><cntfax>360-709-5599</cntfax><cntemail>buschmw@wsdot.wa.gov</cntemail><hours>M-F 8 AM - 5 PM</hours><cntinst>Please call, email or write with questions.  </cntinst></cntinfo></proccont><srcprod>Ferry Routes of Washington State </srcprod></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\Data\Washington\ferry\Ferry</srcused><procdate Sync="TRUE">20100102</procdate><proctime Sync="TRUE">09380500</proctime></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">C:\Data\Project2_Practice\Ferries</srcused><procdate Sync="TRUE">20100102</procdate><proctime Sync="TRUE">10064400</proctime></procstep></lineage>
+		<cloud>0</cloud>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf><esriterm Name="Ferries"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polyline</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">23</efeacnt><spindex Sync="TRUE">TRUE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm><sdtsterm Name="Ferries"><sdtstype Sync="TRUE">String</sdtstype><ptvctcnt Sync="TRUE">23</ptvctcnt></sdtsterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres Sync="TRUE">0.000000</latres>
+				<longres Sync="TRUE">0.000000</longres>
+				<geogunit Sync="TRUE">Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn Sync="TRUE">D_North_American_1983_HARN</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn></cordsysn></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="Ferries">
+			<enttyp>
+				<enttypl Sync="TRUE">Ferries</enttypl>
+				<enttypd>The path taken by a vessel transporting vehicles and passengers across bodies of water as a scheduled public, private, tribal, or provincial service.</enttypd>
+				<enttypds>Cartography and GIS Section, Geographic Services, The Washington State Department of Transportation</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">23</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">Shape</attrlabl><attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Feature geometry.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">OWNER</attrlabl><attalias Sync="TRUE">OWNER</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><attrdef>The organization that operates the vessels on a ferry route (state=State of Washington; provincial=Canada; private=private entity; tribal bia=tribal entity).</attrdef><attrdomv><udom>Values are phrases indicating generic ownership: "state," "county," "province of BC," "private," "federal," etc.</udom></attrdomv></attr><attr><attrlabl Sync="TRUE">SR</attrlabl><attalias Sync="TRUE">SR</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">16</attwidth><attrdef>State Route number assigned by the Washington State Department of Transportation</attrdef><attrdefs>State Highway Log</attrdefs><begdatea>19980428</begdatea></attr><attr><attrlabl Sync="TRUE">DISPLAY</attrlabl><attalias Sync="TRUE">DISPLAY</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">70</attwidth><attrdef>Ferry route (terminals locations between which the ferry travels on given route).  </attrdef></attr></detailed>
+		<overview>
+			<eaover>Ferry routes of Washington State are depicted as linear features with attributes identifying the operator and, if that is the Washington State Deptartment of Transportation, what State Route Number is assigned to the ferry route.</eaover>
+			<eadetcit>State=ferry is operated by the State of Washington
+Private=ferry is operated by a private entity
+Provincial=ferry is operated by a Canadian province
+Tribal BIA=ferry is operated by a tribal entity</eadetcit><dsoverv>Ferry routes of Washington State.</dsoverv></overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Washington State Department of Transportation</cntorg>
+					<cntper>Michelle Blake</cntper>
+				</cntorgp>
+				<cntpos>GIS Data Administrator</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 47430</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98504-7430</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>809 Legion Way SE</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98501</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>360-705-7797</cntvoice>
+				<cntfax>360-705-6817</cntfax>
+				<cntemail>blakem@wsdot.wa.gov</cntemail>
+				<cntinst>Call, email or write with requests for geo-spatial data sets.</cntinst>
+			</cntinfo>
+		</distrib>
+		<resdesc>\gisosc\geodata\maps\24k\dot_cartog\ferry\ferry</resdesc>
+		<distliab>The Washington State Department of Transportation shall not be liable for any activity involving these data with regard to lost profits or savings or any other consequential damages; or the fitness for use of the data for a particular purpose; or the installation of the data, its use, or the results obtained.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formspec>Various formats are used: ESRI coverages and shapefiles, and data tables for placement as ArcView "events."</formspec>
+					<formcont>
+The standard distribution compact disc contains all geospatial data sets created by the Washington State Dept. of Transportation. Refer to the included Geodata.txt text file for a brief description of the directory structure.
+Data formats vary--most data are stored as ESRI shape files, but some data models require coverages. There are also dbf-format tables of data located by geographic coordinates or State Route Accumulated Route Mileage.
+</formcont>
+					<transize Sync="TRUE">0.016</transize><dssize Sync="TRUE">0.016</dssize></digtinfo>
+				<digtopt>
+					<offoptn>
+						<offmedia>CD-ROM</offmedia>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+			<ordering>Call, email or write the Distributor with requests for geo-spatial data sets.</ordering>
+			<turnarnd>Generally, the standard compact disc containing all distributed data can be sent within one week of receiving a data request.</turnarnd>
+		</stdorder>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>self-extracting zip file</formname>
+					<formvern>6.3 SR-1 (926) 32-bit</formvern>
+					<formspec>WinZip</formspec>
+					<formcont>Depends on the data set. Arc/Info coverage or shape file; metadata report in html and text files; and, in some cases, a data dictionary text file. Some data sets in the standard distribution are tabular data for placement as ArcView "events."</formcont>
+					<filedec>Run the "exe" file under Windows NT.</filedec>
+					<transize Sync="TRUE">0.016</transize><dssize Sync="TRUE">0.016</dssize></digtinfo>
+				<digtopt>
+					<onlinopt>
+						<accinstr>Use anonymous FTP login or web browser download on the URL specified under Network Address.</accinstr>
+						<oncomp>Unix</oncomp>
+					</onlinopt>
+				</digtopt>
+			</digform>
+			<fees>none</fees>
+			<ordering>Download individual data sets from ftp://ftp.wsdot.wa.gov/gis/GeoDataDistribution</ordering>
+		</stdorder>
+		<stdorder>
+			<nondig>The Cartography/GIS Section can plot maps of most geospatial data sets.</nondig>
+			<fees>depend on plotting costs.</fees>
+			<ordering>Contact the Point of Contact listed under the Identification Section to determine the availability of this data set in a non-digital representation.</ordering>
+			<digform><digtinfo><transize Sync="TRUE">0.016</transize><dssize Sync="TRUE">0.016</dssize></digtinfo></digform></stdorder>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>unknown</caldate>
+					<time>unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20100102</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Washington State Department of Transportation</cntorg>
+					<cntper>Michelle Blake</cntper>
+				</cntorgp>
+				<cntpos>GIS Data Administrator</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>PO Box 47430</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98504-7430</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntaddr>
+					<addrtype>physical address</addrtype>
+					<address>809 Legion Way SE</address>
+					<city>Olympia</city>
+					<state>WA</state>
+					<postal>98501</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>360-705-7797</cntvoice>
+				<cntfax>360-705-6817</cntfax>
+				<cntemail>blakem@wsdot.wa.gov</cntemail>
+				<cntinst>Call, email or write with requests for geo-spatial data sets.</cntinst>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metac>none</metac>
+		<metuc>none</metuc>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20140414</CreaDate><CreaTime>08252700</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20100102</SyncDate><SyncTime>09435300</SyncTime><ModDate>20100102</ModDate><ModTime>09435300</ModTime><ArcGISFormat>1.0</ArcGISFormat><DataProperties><lineage><Process ToolSource="C:\Program Files (x86)\ArcGIS\Desktop10.0\ArcToolbox\Toolboxes\Data Management Tools.tbx\Project" Date="20140414" Time="082527">Project "\\imsnolna04\nettoc\My Documents\Python_Learning\PSU_ArcPy_course\PennState_Data\Lesson2\Ferries.shp" "\\imsnolna04\nettoc\My Documents\Python_Learning\PSU_ArcPy_course\PennState_Data\Lesson2\\projected\Ferries_projected.shp" PROJCS['NAD_1983_StatePlane_Washington_South_FIPS_4602',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',500000.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-120.5],PARAMETER['Standard_Parallel_1',45.83333333333334],PARAMETER['Standard_Parallel_2',47.33333333333334],PARAMETER['Latitude_Of_Origin',45.33333333333334],UNIT['Meter',1.0]] # PROJCS['USA_Contiguous_Lambert_Conformal_Conic',GEOGCS['GCS_North_American_1983',DATUM['D_North_American_1983',SPHEROID['GRS_1980',6378137.0,298.257222101]],PRIMEM['Greenwich',0.0],UNIT['Degree',0.0174532925199433]],PROJECTION['Lambert_Conformal_Conic'],PARAMETER['False_Easting',0.0],PARAMETER['False_Northing',0.0],PARAMETER['Central_Meridian',-96.0],PARAMETER['Standard_Parallel_1',33.0],PARAMETER['Standard_Parallel_2',45.0],PARAMETER['Latitude_Of_Origin',39.0],UNIT['Meter',1.0]]</Process></lineage></DataProperties></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows Vista Version 6.0 (Build 6002) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Ferries</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-123.44516</westBL><eastBL Sync="TRUE">-118.138048</eastBL><northBL Sync="TRUE">49.026429</northBL><southBL Sync="TRUE">46.136829</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-123.44516</westBL><eastBL Sync="TRUE">-118.138048</eastBL><northBL Sync="TRUE">49.026429</northBL><southBL Sync="TRUE">46.136829</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\ASROCK\C$\Data\Project2_Originals\Ferries</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.016</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">GCS_North_American_1983_HARN</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Ferries"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">23</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20100102</mdDateSt></metadata>
