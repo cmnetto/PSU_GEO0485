@@ -1,3 +1,4 @@
+# this script was created for lesson 1.6.3
 import arcpy
 from arcpy.sa import *
 
